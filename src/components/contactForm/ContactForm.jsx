@@ -32,6 +32,7 @@ const ContactForm=  ( {addContact} )=>  {
           value={name}
           onChange={handleNameChange}
           name="name"
+          placeholder="John Dow"
           required
         />
       </label>
@@ -46,6 +47,7 @@ const ContactForm=  ( {addContact} )=>  {
           onChange={handleNumberChange}
           name="number"
           pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          placeholder="123-45-67"
           required
         />
       </label>
